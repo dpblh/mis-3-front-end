@@ -1,0 +1,23 @@
+default:
+  description:  'dev tasks'
+  tasks:
+    - server
+
+dev:
+  description: 'Dev build'
+  tasks:
+    - 'concurrent:clean'
+    - 'concurrent:first_dev'
+    - 'concurrent:three'
+
+prod:
+  description: 'Production build'
+  tasks:
+    - 'concurrent:clean'
+    - 'concurrent:first_prod'
+    - 'concurrent:second_prod'
+    - 'concurrent:three'
+server:
+  description: 'Start developer server'
+  tasks:
+    - 'concurrent:server'
