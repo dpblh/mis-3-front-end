@@ -1,8 +1,8 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
+  "name": "mis-3",
+  "description": "A starter project",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "homepage": "https://github.com/dpblh/mis-3-front-end",
   "license": "MIT",
   "private": true,
   "dependencies": {
