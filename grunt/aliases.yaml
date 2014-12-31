@@ -8,6 +8,7 @@ dev:
   tasks:
     - 'clean'
     - 'concurrent:first_dev'
+    - 'concurrent:second_dev'
     - 'concurrent:copyAll'
 
 prod:

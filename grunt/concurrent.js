@@ -9,8 +9,12 @@ module.exports = {
         'less:prod_app',
         'concat'
     ],
+    second_dev: [
+      'autoprefixer'
+    ],
     second_prod: [
-        'uglify'
+        'uglify',
+        'autoprefixer'
     ],
     copyAll: [
         'copy:styles',

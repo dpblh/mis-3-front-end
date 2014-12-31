@@ -18,7 +18,7 @@ module.exports = {
             'app/app.less'
         ],
         tasks: [
-            'less:dev_app', 'copy'
+            'less:dev_app', 'autoprefixer', 'copy'
         ]
     }
 };
