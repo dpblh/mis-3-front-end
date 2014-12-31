@@ -1,7 +1,4 @@
 module.exports = {
-    clean: [
-        'clean'
-    ],
     first_dev: [
         'less:dev_bootstrap',
         'less:dev_app',
@@ -15,12 +12,12 @@ module.exports = {
     second_prod: [
         'uglify'
     ],
-    three: [
+    copyAll: [
         'copy:styles',
         'copy:scripts'
     ],
-    server: [
-        'connect',
+    serverWatch: [
+        'server',
         'watch'
     ]
 };

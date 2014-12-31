@@ -5,6 +5,6 @@ module.exports = {
             'app/core/**/*.js',
             'app/modules/**/*.js'
         ],
-        dest: 'dist/scripts/app.js'
+        dest: '.temp/scripts/app.js'
     }
 };

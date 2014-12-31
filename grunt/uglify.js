@@ -4,7 +4,7 @@ module.exports = {
             mangle: false
         },
         files: {
-            'dist/scripts/app.js': ['dist/scripts/app.js']
+            '.temp/scripts/app.js': ['.temp/scripts/app.js']
         }
     }
 };

@@ -4,7 +4,7 @@ module.exports = {
             expand: true,
             dest: 'app/assets/style',
             src: '*.css',
-            cwd: 'dist/styles/'
+            cwd: '.temp/styles/'
         }]
     },
     scripts: {
@@ -12,7 +12,7 @@ module.exports = {
             expand: true,
             dest: 'app/assets/javascript',
             src: '*.js',
-            cwd: 'dist/scripts/'
+            cwd: '.temp/scripts/'
         }]
     }
 };

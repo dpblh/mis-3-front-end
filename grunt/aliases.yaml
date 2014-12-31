@@ -1,23 +1,28 @@
 default:
   description:  'dev tasks'
   tasks:
-    - server
+    - serverWatch
 
 dev:
   description: 'Dev build'
   tasks:
-    - 'concurrent:clean'
+    - 'clean'
     - 'concurrent:first_dev'
-    - 'concurrent:three'
+    - 'concurrent:copyAll'
 
 prod:
   description: 'Production build'
   tasks:
-    - 'concurrent:clean'
+    - 'clean'
     - 'concurrent:first_prod'
     - 'concurrent:second_prod'
-    - 'concurrent:three'
+    - 'concurrent:copyAll'
 server:
   description: 'Start developer server'
   tasks:
-    - 'concurrent:server'
+    - 'configureProxies:server'
+    - 'connect:server'
+serverWatch:
+  description: 'Start developer server and start watch'
+  tasks:
+    - 'concurrent:serverWatch'

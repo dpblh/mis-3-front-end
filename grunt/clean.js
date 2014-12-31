@@ -1,6 +1,6 @@
 module.exports = {
     all: [
-        "dist/",
+        ".temp/",
         "app/assets/javascript/",
         "app/assets/style/"
     ]

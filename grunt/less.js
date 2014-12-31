@@ -1,7 +1,7 @@
 module.exports = {
     dev_bootstrap: {
         files: {
-            'dist/styles/bootstrap.css': 'app/bower_components/bootstrap/less/bootstrap.less'
+            '.temp/styles/bootstrap.css': 'app/bower_components/bootstrap/less/bootstrap.less'
         }
     },
     prod_bootstrap: {
@@ -9,12 +9,12 @@ module.exports = {
             compress: true
         },
         files: {
-            'dist/styles/bootstrap.css': 'app/bower_components/bootstrap/less/bootstrap.less'
+            '.temp/styles/bootstrap.css': 'app/bower_components/bootstrap/less/bootstrap.less'
         }
     },
     dev_app: {
         files: {
-            'dist/styles/app.css': 'app/app.less'
+            '.temp/styles/app.css': 'app/app.less'
         }
     },
     prod_app: {
@@ -22,7 +22,7 @@ module.exports = {
             compress: true
         },
         files: {
-            'dist/styles/bootstrap.css': 'app/app.less'
+            '.temp/styles/app.css': 'app/app.less'
         }
     }
 };
